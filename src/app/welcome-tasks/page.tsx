@@ -181,7 +181,7 @@ export default function WelcomeTasksPage() {
                         )}
                         <div className="space-y-4">
                            <TaskItem
-                                icon={<Image src="/x.jpg" alt="X/Twitter" width={24} height={24} />}
+                                icon={<Image src="/x.jpg" alt="X/Twitter" width={24} height={24} referrerPolicy="no-referrer" />}
                                 iconName="XIcon"
                                 title="Follow on X"
                                 description="Stay up-to-date with our latest news."
@@ -192,7 +192,7 @@ export default function WelcomeTasksPage() {
                                 onComplete={() => handleTaskComplete('followedOnX')}
                            />
                            <TaskItem
-                                icon={<Image src="/tg.jpg" alt="Telegram" width={24} height={24} />}
+                                icon={<Image src="/tg.jpg" alt="Telegram" width={24} height={24} referrerPolicy="no-referrer" />}
                                 iconName="TelegramIcon"
                                 title="Subscribe on Telegram"
                                 description="Get announcements directly from the source."
@@ -203,7 +203,7 @@ export default function WelcomeTasksPage() {
                                 onComplete={() => handleTaskComplete('subscribedOnTelegram', '@Exnusprotocol')}
                            />
                             <TaskItem
-                                icon={<Image src="/tg.jpg" alt="Telegram" width={24} height={24} />}
+                                icon={<Image src="/tg.jpg" alt="Telegram" width={24} height={24} referrerPolicy="no-referrer" />}
                                 iconName="TelegramIcon"
                                 title="Join Telegram Community"
                                 description="Chat with other members."
@@ -214,7 +214,7 @@ export default function WelcomeTasksPage() {
                                 onComplete={() => handleTaskComplete('joinedTelegramCommunity', '@exnusprotocolchat')}
                            />
                            <TaskItem
-                                icon={<Image src="/discord.jpg" alt="Discord" width={24} height={24} />}
+                                icon={<Image src="/discord.jpg" alt="Discord" width={24} height={24} referrerPolicy="no-referrer" />}
                                 iconName="DiscordIcon"
                                 title="Join our Discord"
                                 description="Become a part of our community."

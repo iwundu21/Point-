@@ -30,8 +30,8 @@ export const renderIcon = (iconName: string, className?: string) => {
         case 'ThumbsUp': return <ThumbsUp className={className} />;
         case 'Repeat': return <Repeat className={className} />;
         case 'Star': return <Star className={className} />;
-        case 'XIcon': return <Image src="/x.jpg" alt="X/Twitter" width={20} height={20} className={imageClassName} />;
-        case 'TelegramIcon': return <Image src="/tg.jpg" alt="Telegram" width={20} height={20} className={imageClassName} />;
+        case 'XIcon': return <Image src="/x.jpg" alt="X/Twitter" width={20} height={20} className={imageClassName} referrerPolicy="no-referrer" />;
+        case 'TelegramIcon': return <Image src="/tg.jpg" alt="Telegram" width={20} height={20} className={imageClassName} referrerPolicy="no-referrer" />;
         default: return <Users className={className} />;
     }
 }

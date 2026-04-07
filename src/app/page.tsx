@@ -243,15 +243,15 @@ initializeUser(user);
             <h3 className="text-sm font-semibold text-muted-foreground mb-4">If you believe this is an error, please contact support:</h3>
             <div className="flex justify-around space-x-4">
                 <a href="https://x.com/exnusprotocol" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
-                    <Image src="/x.jpg" alt="X/Twitter" width={24} height={24} />
+                    <Image src="/x.jpg" alt="X/Twitter" width={24} height={24} referrerPolicy="no-referrer" />
                     <span className="text-xs">X / Twitter</span>
                 </a>
                 <a href="https://t.me/exnusprotocol" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
-                    <Image src="/tg.jpg" alt="Telegram" width={24} height={24} />
+                    <Image src="/tg.jpg" alt="Telegram" width={24} height={24} referrerPolicy="no-referrer" />
                     <span className="text-xs">Telegram</span>
                 </a>
                 <a href="https://discord.gg/v8MpYYFdP8" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
-                    <Image src="/discord.jpg" alt="Discord" width={24} height={24} />
+                    <Image src="/discord.jpg" alt="Discord" width={24} height={24} referrerPolicy="no-referrer" />
                     <span className="text-xs">Discord</span>
                 </a>
             </div>
@@ -283,11 +283,11 @@ initializeUser(user);
                         </p>
                         <div className="flex justify-around space-x-4 pt-4">
                             <a href="https://x.com/exnusprotocol" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
-                                <Image src="/x.jpg" alt="X/Twitter" width={24} height={24} />
+                                <Image src="/x.jpg" alt="X/Twitter" width={24} height={24} referrerPolicy="no-referrer" />
                                 <span className="text-xs">X / Twitter</span>
                             </a>
                             <a href="https://t.me/exnusprotocol" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
-                                <Image src="/tg.jpg" alt="Telegram" width={24} height={24} />
+                                <Image src="/tg.jpg" alt="Telegram" width={24} height={24} referrerPolicy="no-referrer" />
                                 <span className="text-xs">Telegram</span>
                             </a>
                         </div>
