@@ -8,7 +8,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyDKSKvPjSbb4pQU5nTJm19SlswElgLcxuM",
   authDomain: "exnus-points-eccnf.firebaseapp.com",
   projectId: "exnus-points-eccnf",
-  storageBucket: "exnus-points-eccnf.appspot.com",
+  storageBucket: "exnus-points-eccnf.firebasestorage.app",
   messagingSenderId: "981614065888",
   appId: "1:981614065888:web:3f5a73f90ad4169172b885"
 };
